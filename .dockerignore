@@ -1,0 +1,5 @@
+data
+models
+.venv
+transcripts_cellpose.csv
+notebook.html
