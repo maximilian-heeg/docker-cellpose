@@ -27,4 +27,4 @@ jobs:
             RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
         with:
           push: true
-          tags: maximilianheeg/xenium-cellpose-nucleus:${{ steps.vars.outputs.tag }}
+          tags: maximilianheeg/docker-cellpose:${{ steps.vars.outputs.tag }}
